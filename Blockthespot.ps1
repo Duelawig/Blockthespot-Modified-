@@ -4,6 +4,18 @@ $SpotifyDirectory = "$env:APPDATA\Spotify"
 $SpotifyExecutable = "$SpotifyDirectory\Spotify.exe"
 $SpotifyApps = "$SpotifyDirectory\Apps"
 
+write-host @'
+*****************
+
+Modified By: Duelawig
+Original By: Mrpond
+
+@mrpond message:
+#Thailand #ThaiProtest #ThailandProtest #freeYOUTH
+Please retweet these hashtag, help me stop dictator government!
+***************** 
+'@
+
 Write-Host 'Stopping Spotify...'`n
 Stop-Process -Name Spotify
 Stop-Process -Name SpotifyWebHelper
